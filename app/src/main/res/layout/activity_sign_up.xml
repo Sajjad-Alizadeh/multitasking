@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignUpActivity"
+    android:layoutDirection="ltr">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"
+        android:background="@drawable/selector_background_sign_up"
+        android:orientation="vertical">
+
+
+
+
+        <EditText
+            android:id="@+id/name_edt"
+            style="@style/sign_up_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/sign_up_height_margin_edt"
+            android:background="@drawable/selector_background_sign_up_edt"
+            android:hint="@string/name"
+            android:inputType="textPersonName"
+            android:maxLength="20"
+
+            />
+
+        <EditText
+            android:id="@+id/email_edt"
+            style="@style/sign_up_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/sign_up_height_margin_edt"
+            android:background="@drawable/selector_background_sign_up_edt"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+
+            />
+
+        <EditText
+            android:id="@+id/user_name_edt"
+            style="@style/sign_up_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/sign_up_height_margin_edt"
+            android:background="@drawable/selector_background_sign_up_edt"
+            android:hint="@string/username"
+            android:inputType="text"
+            android:maxLength="30" />
+
+        <EditText
+            android:id="@+id/password_edt"
+            style="@style/sign_up_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/sign_up_height_margin_edt"
+            android:background="@drawable/selector_background_sign_up_edt"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:maxLength="30"
+            android:textAlignment="viewStart" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/standard_margin_x2"
+        android:layout_weight="0.3"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/sign_up_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="64dp"
+            android:layout_marginEnd="64dp"
+            android:background="@drawable/selector_background_sign_up_btn"
+            android:foreground="?attr/selectableItemBackground"
+            android:text="@string/signUp"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/txt_have_acc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/standard_margin"
+            android:gravity="center_horizontal"
+            android:text="@string/already_have_account"
+            android:textColor="@color/black" />
+    </LinearLayout>
+</LinearLayout>

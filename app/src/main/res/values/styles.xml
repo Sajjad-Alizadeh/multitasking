@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="sign_up_edit_text">
+        <item name="android:ems">10</item>
+        <item name="android:layout_marginStart">@dimen/standard_margin_x2</item>
+        <item name="android:layout_marginEnd">@dimen/standard_margin_x2</item>
+        <item name="android:layout_marginTop">@dimen/standard_margin_x2</item>
+        <item name="android:padding">@dimen/standard_margin</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+</resources>

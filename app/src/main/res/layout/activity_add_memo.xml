@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MemoActivity"
+    android:orientation="vertical"
+    android:padding="@dimen/standard_margin"
+    android:layoutDirection="ltr">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/standard_margin"
+        android:layout_marginTop="@dimen/standard_margin">
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/save_memo_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="save"
+            android:layout_marginEnd="@dimen/standard_margin"
+
+            android:background="@color/white"
+            android:foreground="?attr/selectableItemBackground"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/cancel_memo_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cancel"
+            android:layout_toStartOf="@id/save_memo_btn"
+            android:layout_marginEnd="@dimen/standard_margin"
+            android:background="@color/white"
+            android:foreground="?attr/selectableItemBackground"/>
+    </RelativeLayout>
+    <EditText
+        android:id="@+id/memo_title_edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/memo_title"
+        android:background="@color/white"
+        android:maxLines="1"
+        android:maxLength="30"
+        />
+    <EditText
+        android:id="@+id/memo_content_edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/memo_content"
+        android:background="@color/white"
+        android:layout_marginTop="@dimen/standard_margin" />
+</LinearLayout>

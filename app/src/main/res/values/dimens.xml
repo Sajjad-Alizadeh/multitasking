@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="small_font_size">12sp</dimen>
+    <dimen name="normal_font_size">14sp</dimen>
+    <dimen name="large_font_size">16sp</dimen>
+    <dimen name="standard_margin">8dp</dimen>
+    <dimen name="standard_margin_x2">16dp</dimen>
+    <dimen name="sign_up_height_margin_edt">45dp</dimen>
+
+    <dimen name="radius_sign_up_background">50dp</dimen>
+
+</resources>

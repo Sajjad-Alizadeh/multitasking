@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TestApp</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="signUp">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="already_have_account">already have account ?</string>
+    <string name="dont_have_account">don\'t have account ?</string>
+    <string name="memo_title">Enter title</string>
+    <string name="memo_content">Add memo</string>
+    <string name="map_distance_label" translatable="false">  فاصله شما تا مقصد:  </string>
+    <string name="map_kilometer_label" translatable="false">  کیلومتر  </string>
+</resources>

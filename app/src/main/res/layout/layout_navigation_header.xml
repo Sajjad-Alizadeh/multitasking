@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/black">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/main_logo"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter" />
+    <TextView
+        android:id="@+id/navigation_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Test app"
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/standard_margin_x2"
+        android:layout_marginStart="@dimen/standard_margin_x2"/>
+
+</RelativeLayout>
